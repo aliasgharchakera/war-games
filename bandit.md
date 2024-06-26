@@ -162,3 +162,88 @@ cat data8
 
 ### Level 13
 ```FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn```
+
+```
+ls
+// sshkey.private is present in the root directory
+
+exit
+
+scp -P 2220 bandit13@bandit.labs.overthewire.org:sshkey.private .
+
+chmod 700 sshkey.private
+
+ssh -i sshkey.private bandit13@bandit.labs.overthewire.org -p 2220
+```
+
+### Level 14
+```sshkey.private``` ```MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS```
+
+```
+cat /etc/bandit_pass/bandit14
+
+nc localhost 30000
+
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+```
+
+### Level 15
+```8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo```
+
+```
+openssl s_client -connect localhost:30001
+
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+```
+
+### Level 16
+```kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx```
+
+```
+nmap -sV localhost -p 31000-32000
+
+echo kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx | openssl s_client -quiet -connect localhost:31790
+```
+
+### Level 17
+```sshkey17.private```
+
+```
+diff passwords.old passwords.new
+```
+
+### Level 18
+```x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO```
+
+```
+ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+```
+
+### Level 19
+```cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8```
+
+```
+ls -la
+
+./bandit20-do id
+
+./bandit20-do ls /etc/bandit_pass
+
+./bandit20-do cat /etc/bandit_pass/bandit20
+```
+
+### Level 20
+```0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO```
+
+```
+echo -n 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO | nc -l -p 1234 &
+
+./suconnect 1234
+```
+
+### Level 21
+```EeoULMCra2q0dSkYj561DX7s1CpBuOBt```
+
+```
+
+```
