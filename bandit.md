@@ -103,5 +103,62 @@ cat data.txt | tr 'a-z' 'n-za-m' | tr 'A-Z' 'N-ZA-M'
 ```7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4```
 
 ```
+cd /tmp
 
+mktemp -d 
+
+cd /tmp/tmp.XYZ
+
+cp ~/data.txt .
+
+mv data.txt hexdump_data
+
+xxd -r hexdump_data compressed_data
+
+cat compressed_data | head
+
+cat hexdump_data | head
+
+mv compressed_data compressed_data.gz
+
+gzip -d compressed_data.gz
+
+xxd compressed_data
+
+mv compressed_data compressed_data.bz2
+
+bzip2 -d compressed_data.bz2
+
+xxd compressed_data
+
+mv compressed_data compressed_data.gz
+
+gzip -d compressed_data.gz
+
+xxd compressed_data
+
+mv compressed_data compressed_data.tar
+
+tar -xf compressed_data.tar
+
+tar -xf data5.bin
+
+xxd data6.bin
+
+bzip2 -d data6.bin
+
+xxd data6.bin.out
+
+tar -xf data6.bin.out
+
+xxd data8.bin
+
+mv data8.bin data8.gz
+
+gzip -d data8.gz
+
+cat data8
 ```
+
+### Level 13
+```FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn```
