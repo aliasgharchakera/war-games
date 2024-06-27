@@ -336,3 +336,125 @@ sort result.txt | grep -v "Wrong!"
 
 ```
 ```
+
+### Level 26
+```s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ```
+
+```
+./bandit27-do cat /etc/bandit\_pass/bandit27
+```
+
+### Level 27
+```upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB```
+
+```
+mktemp -d
+
+cd /tmp/tmp.XY
+
+git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo
+
+cd repo
+
+cat README
+```
+
+### Level 28
+```Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN```
+
+```
+mktemp -d
+
+cd /tmp/tmp.XY
+
+git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+
+cd repo
+
+cat README.md
+
+git log
+
+git show abcd
+```
+
+### Level 29
+```4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7```
+
+```
+mktemp -d
+
+cd /tmp/tmp.XY
+
+git clone ssh://bandit29-git@localhost:2220/home/bandit29-git/repo
+
+cd repo
+
+cat README.md
+
+git branch -a
+
+git checkout dev
+
+cat README.md
+```
+
+### Level 30
+```qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL```
+
+```
+mktemp -d
+
+cd /tmp/tmp.XY
+
+git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo
+
+cd repo
+
+cat README.md
+
+git tag
+
+git show secret
+```
+
+### Level 31
+```fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy```
+
+```
+mktemp -d
+
+cd /tmp/tmp.XY
+
+git clone ssh://bandit31-git@localhost:2220/home/bandit31-git/repo
+
+cd repo
+
+cat README.md
+
+cat .gitignore
+
+echo 'May I come in?' > key.txt
+
+git add -f key.txt
+
+git commit -m 'Add key.txt'
+
+git push -u origin master
+```
+
+### Level 32
+```3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K```
+
+```
+$0
+
+ls -la
+
+whoami
+
+cat /etc/bandit\_pass/bandit33
+```
+
+### Level 33
+```tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0```
