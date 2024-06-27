@@ -245,5 +245,37 @@ echo -n 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO | nc -l -p 1234 &
 ```EeoULMCra2q0dSkYj561DX7s1CpBuOBt```
 
 ```
+ls -la /etc/cron.d
 
+cat /etc/cron.d/cronjob_bandit22
+
+cat /usr/bin/cronjob_bandit22.sh
+
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+```
+
+### Level 22
+```tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q```
+
+```
+ls -la /etc/cron.d
+
+cat /etc/cron.d/cronjob_bandit23
+
+cat /usr/bin/cronjob_bandit23.sh
+
+echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+
+cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+```
+
+### Level 23
+```0Zf11ioIjMVN551jX3CmStKLYqjk54Ga```
+
+```
+ls -la /etc/cron.d
+
+cat /etc/cron.d/cronjob_bandit24
+
+cat /usr/bin/cronjob_bandit24.sh
 ```
