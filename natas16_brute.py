@@ -1,69 +1,3 @@
-# Natas War Games
-
-## Passwords and Commands
-
-### Level 0
-```natas0```
-
-### Level 1
-```0nzCigAq7t2iALyvU9xcHlYN4MlkIwlq```
-
-### Level 2
-```TguMNxKo1DSa1tujBLuZJnDUlCcUAPlI```
-
-### Level 3
-```3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH```
-
-### Level 4
-```QryZXc2e0zahULdHrtHxzyYkj59kUxLQ```
-
-### Level 5
-```0n35PkggAPm2zbEpOU802c0x0Msn1ToK```
-
-### Level 6
-```0RoJwHdSKWFTYR5WuiAewauSuNaBXned```
-
-### Level 7
-```bmg8SvU1LizuWjx3y7xkNERkHxGre0GS```
-
-### Level 8
-```xcoXLmzMkoIP9D7hlgPlh9XD7OgLAe5Q```
-
-### Level 9
-```ZE1ck82lmdGIoErlhQgWND6j2Wzz6b6t```
-
-```
-; cat /etc/natas_webpass/natas10 #
-```
-
-### Level 10
-```t7I5VHvpa14sJTUGV0cbEsbYfFP2dmOu```
-
-```
-.* /etc/natas_webpass/natas11 #
-```
-
-### Level 11
-```UJdqkK1pTu6VLt9UHWAgRZz6sVUZ3lEk```
-
-### Level 12
-```yZdkjAYZRd3R7tq7T5kXMjMJlOIkzDeB```
-
-### Level 13
-```trbs5pCjCrkuSknBBKHhaBxq6Wm1j3LC```
-
-### Level 14
-```z3UYcr4v4uBpeX8f7EZbMHlzK4UR2XtQ```
-
-```
-username = "="
-password = "="
-```
-
-### Level 15
-```SdqIqBsFcz3yotlNYErZSZwblkm0lrvx```
-
-```
 #!/usr/bin/env python
 
 import requests
@@ -105,7 +39,3 @@ for i in range(32):
         break
 
 print('Completed!')
-```
-
-### Level 16
-```hPkjKYviLQctEW33QmuXL6eDVfMW4sGo```
